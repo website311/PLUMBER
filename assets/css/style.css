@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:transparent;
+    transition: 0.6s;
+    height: 85px;
+}
+nav.sticky{
+    padding: 5px 5px;
+    height: 70px;
+    box-shadow: 0 2px 5px rgba(0 0 0 /20%);
+    background-color: #06060aec;
+}
+.navbar .navbar-nav{
+    margin-left: auto;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 23px;
+    font-weight: 400;
+}
+/* ===============HOME=================== */
+.home{
+    background-image:linear-gradient(rgba(4,9,30,0.9), rgba(4,9,30,0.9)), url(../img/xheader-bg.jpg.pagespeed.ic.cuqkMcZAo_.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 100vh; */
+
+}
+.home .plumber-h{
+    color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.home .plumber-h h1{
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px;
+    font-size: 75px;
+}
+.home .plumber-h p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4;
+    line-height: 1.625em;
+}
+.home .plumber-h .btn{
+    background: #f53f51;
+    border: 1px solid transparent;
+    color: #fff;
+    letter-spacing: 0.4;
+    border-radius: 30px;
+}
+.home .plumber-h .btn:hover{
+    background: none;
+    border: 1px solid white;
+}
+/* ============ change=========== */
+.change .hea h2{
+    text-align: right;
+    color: #222;
+    font-size: 33px;
+    font-weight: 600;
+}
+.change .hea h2 span{
+    font-weight: 100;
+    letter-spacing: 0.9;
+    color: #7777;
+}
+.change .lorem p{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+}
+/* ===============Service============= */
+.Service .serv h4{
+    color: #222;
+
+}
+.Service .serv p{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+}
+/* =============Features============ */
+.Features{
+    background-color: #f9f9ff;
+}
+.Features .make{
+    margin-left: 4%;
+    margin-top: 13%;
+}
+
+.Features .make h1{
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px;
+    font-size: 35px;
+    color: #222;
+}
+.Features .make p{
+    font-family: "Poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+}
+.Features .card-a{
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-top: 12%;
+}
+.Features .card-a .card{
+    border: none;
+    border-radius: none;
+}
+.Features .card-a .card:hover{
+     box-shadow: -14.142px 14.142px 20px 0 rgb(157 157 157 / 20%);
+     transition: 0.2s;
+}
+.Features .card-a .card p{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+}
+.Features .card-a .card h5{
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 20px;
+    color: #222;
+}
+/* ===============conter============= */
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats .card{
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    padding: 40px 0;
+    box-shadow: 0px 10px 50px 0px rgb(245 63 81 / 30%);
+    font-family: 'Montserrat', sans-serif;
+}
+.stats .card .counting{
+    font-size: 60px;
+    font-weight: 400;
+    color: #f53f51;
+}
+.stats .card h6{
+    color: #777;
+    font-weight: 100;
+    font-size: 15px;
+}
+/* =============video============= */
+.video .play{
+    background-image: url(../img/video-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+.video .play h1{
+    padding-top: 14%;
+    font-weight: 700;
+}
+.video .play .video-img a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+
+}
+/* ==============got============= */
+.got{
+    margin-top: 8%;
+    background-color: #04091e;
+}
+.got .got-h .btn{
+     border-radius: 30px;
+     background-color: white;
+}
+.got .got-h .btn:hover{
+    background-color: #04091e;
+    border: 1px solid white;
+    color: white;
+}
+/* =============card-slid=========== */
+.card-slid .client h1{
+    font-weight: 700;
+    margin-top: 10%;
+    font-family: "Poppins",sans-serif;
+}
+
+.card-slid .client p{
+    color: #777;
+    margin-bottom: 5%;
+
+}
+.card-slid .slid .carousel-indicators .active{
+    background-color: #f53f51;
+}
+.card-slid .slid .carousel-indicators button{
+    height: 10px;
+    width: 10px;
+    background-color: #7777;
+    padding-bottom: -20%;
+    position: relative;
+}
+.card-slid .slid .carousel .carousel-inner .carousel-item .card{
+background-color: #f9f9ff;
+border: 1px solid #eeeeee;
+border-radius: 10px;
+
+}
+.card-slid .slid .carousel .carousel-inner .carousel-item .card p{
+    color: #777;
+}
+.card-slid .slid .carousel .carousel-inner .carousel-item .card h5{
+    font-weight: 700;
+}
+.card-slid .slid .carousel .carousel-inner .carousel-item .card h5:hover{
+color: #f53f51;
+}
+
+/* ==============contact========= */
+.contact .container{
+    background-color: #f9f9ff;
+}
+.contact .form{
+    margin-top: 14%;
+    padding-left: 7%;
+    padding-right: 9%;
+}
+.contact .form .btn{
+    background-color: #f53f51;
+    border-radius: 30px;
+    color: white;
+    /* font-size: 13px; */
+}
+/* ==============footer============ */
+.footer{
+    background-color: #04091e;
+    height: 390px;
+    padding-top: 5%;
+}
+.footer h5{
+    color: white;
+}
+.footer p{
+    color: #777;
+    font-size: 15px;
+}
+.footer .Newsletter .input-group .btn{
+    background-color: #f53f51;
+    color: white;
+    border-radius: 0;
+}
+.footer .Newsletter .input-group input{
+border-radius: 0;
+}
+.footer .About p span{
+    color: #f53f51;
+}
+.footer .Follow .icon .fab{
+     color: white;
+}
+.footer .Follow{
+    margin-left: 25%;
+}
